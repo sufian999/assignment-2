@@ -1,5 +1,6 @@
+
 .top{
-  width: 1440pX;
+  width: 1440px;
   height: 715px;
   margin: 0 auto;
   background-color: black;
@@ -15,7 +16,6 @@
   align-items: center;
   margin: 0 auto;
   padding: 30px;
-  
 }
 .top-head h1{
   color: rgba(230, 83, 60, 1);
@@ -29,8 +29,8 @@
   color: white;
   border-radius: 20pX;
   margin-top: -14px;
-
 }
+
 .button-three{
   width: 150pX;
   height: 48pX;
@@ -48,7 +48,6 @@
   border-radius: 20pX;
   margin-top: -14px;
   border: 1px solid white;
-
 }
 
 .top-two{
@@ -307,38 +306,32 @@ margin-bottom: 60pX;
     border: 2pX solid red;
     margin:  0 auto;
   }
-  .image-one{
-   width: 355.33px;
-  height: 100%;
-  border-radius: 40px;
-  }
-  .image-two{
-   width: 355.33px;
-  height: 100%;
+  .tem-footer img{
+    width: 355.33pX;
+   height: 100%;
    border-radius: 40px;
   }
-  .image-three{
-   width: 355.33px;
-  height: 100%;
-   border-radius: 40px;
+  .name{
+  position:absolute;
+  margin-top: 230px;
+  padding: 10px;
+  font-weight: 600;
   }
-  .image-four{
-  width: 355.33px;
-  height: 50%;
-   border-radius: 40px;
+  .name-two{
+  position:absolute;
+  margin-top: 230px;
+  margin-left: 370px;
+  padding: 10px;
+  font-weight: 600;
   }
-  .image-five{
-   width: 355.33px;
-    height: 50%;
-     border-radius: 40px;
+  .name-three{
+  position:absolute;
+  margin-top: 230px;
+  margin-left: 730px;
+  padding: 10px;
+  font-weight: 600;
   }
-  .image-siX{
-    width: 355.33px;
-    height: 50%;
-     border-radius: 40px;
-    /* position: absolute; */
-   }
-   .footer{
+  .footer{
     width: 1440pX;
    }
    .footer-one{
@@ -362,3 +355,12 @@ margin-bottom: 60pX;
     text-align: center;
 
      }
+
+@media (max-width: 480pX){
+  .top{
+
+  }
+  .top-one{
+margin-left: 0;
+  }
+}
